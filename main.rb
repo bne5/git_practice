@@ -6,6 +6,7 @@ def menu
   puts "1: Enter git command"
   puts "2: Exit"
   case gets.to_i
+  when 1
     puts "Enter git command:"
     puts_git(gets.strip)
     menu
